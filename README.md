@@ -1,4 +1,5 @@
-# SOLID é um acrônimo dos cinco primeiros princípios da programação orientada a objetos e sua divisão consiste em:
+# S.O.L.I.D 
+SOLID é um acrônimo dos cinco primeiros princípios da programação orientada a objetos e sua divisão consiste em:
 
 - [S]ingle Responsability Principle (Princípio da Responsabilidade Única);
 - [O]pen/Closed Principle (Princípio do Aberto/Fechado);
