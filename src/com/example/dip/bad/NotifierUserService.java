@@ -13,7 +13,9 @@ public class NotifierUserService {
         }
         if (Objects.nonNull(user) && Objects.nonNull(user.getPhone())) {
             NotifierSms sms = new NotifierSms();
-            sms.notifyEmail();
+            sms.notifySms();
         }
+        NotifierNewProduct notifierNewProduct = new NotifierNewProduct();
+        notifierNewProduct.notifyNewProduct();
     }
 }

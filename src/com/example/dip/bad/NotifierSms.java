@@ -1,13 +1,8 @@
 package com.example.dip.bad;
 
-public class NotifierSms implements Notifier {
-    @Override
-    public String notifyEmail() {
-        throw new UnsupportedOperationException();
-    }
+public class NotifierSms {
 
-    @Override
-    public String NotifySms() {
+    public String notifySms() {
         return "OK";
     }
 }
