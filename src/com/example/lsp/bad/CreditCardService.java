@@ -5,7 +5,7 @@ import com.example.CreditCard;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class CreditCardService implements CreateInvoice {
+public class CreditCardService extends CreateInvoice {
 
     private BigDecimal ONE_HUNDRED = new BigDecimal("100");
 

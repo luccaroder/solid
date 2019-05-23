@@ -5,7 +5,7 @@ import com.example.BankSlip;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class BankSlipService implements CreateInvoice {
+public class BankSlipService extends CreateInvoice {
 
     private BigDecimal ONE_HUNDRED = new BigDecimal("100");
 

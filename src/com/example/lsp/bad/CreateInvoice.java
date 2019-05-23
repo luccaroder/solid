@@ -1,7 +1,7 @@
 package com.example.lsp.bad;
 
-public interface CreateInvoice {
+public abstract class CreateInvoice {
 
-    String invoiceCreditCard();
-    String invoiceBankSlip();
+    abstract public String invoiceCreditCard();
+    abstract public String invoiceBankSlip();
 }

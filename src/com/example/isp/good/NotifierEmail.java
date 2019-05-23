@@ -1,6 +1,6 @@
 package com.example.isp.good;
 
-public class NotifierEmail implements NotifierPaymentEmail, NotifierNewProduct {
+public class NotifierEmail implements Notifier, NotifierNewProduct {
 
     @Override
     public String notifyNewProduct() {

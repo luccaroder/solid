@@ -2,12 +2,12 @@ package com.example.isp.bad;
 
 public class NotifierSms implements Notifier {
     @Override
-    public String notifyEmail() {
+    public String notifyPayment() {
         throw new UnsupportedOperationException();
     }
 
     @Override
-    public String NotifySms() {
+    public String notifyNewProduct() {
         return "OK";
     }
 }

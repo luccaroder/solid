@@ -1,6 +1,6 @@
 package com.example.isp.good;
 
-public interface NotifierPaymentEmail {
+public interface Notifier {
 
     String notifyPayment();
 }
